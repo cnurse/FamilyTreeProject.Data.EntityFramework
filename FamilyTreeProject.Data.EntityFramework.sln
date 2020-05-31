@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30105.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeProject.Data.EntityFramework", "src\FamilyTreeProject.Data.EntityFramework\FamilyTreeProject.Data.EntityFramework.csproj", "{85868522-FF0F-42B1-857C-8371ACB51715}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EB4DE910-A291-4FE2-BE6B-DC2A996B0838}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeProject.Data.EntityFramework.Tests", "tests\FamilyTreeProject.Data.EntityFramework.Tests\FamilyTreeProject.Data.EntityFramework.Tests.csproj", "{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeProject.Data.EntityFramework.Integration.Tests", "tests\FamilyTreeProject.Data.EntityFramework.Integration.Tests\FamilyTreeProject.Data.EntityFramework.Integration.Tests.csproj", "{F3B0489E-8876-4E07-BF62-588F7172FA62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D745DB6-855F-48EB-9ABC-B81D7910B9F3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yaml = azure-pipelines.yaml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85868522-FF0F-42B1-857C-8371ACB51715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85868522-FF0F-42B1-857C-8371ACB51715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85868522-FF0F-42B1-857C-8371ACB51715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85868522-FF0F-42B1-857C-8371ACB51715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B0489E-8876-4E07-BF62-588F7172FA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B0489E-8876-4E07-BF62-588F7172FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B0489E-8876-4E07-BF62-588F7172FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B0489E-8876-4E07-BF62-588F7172FA62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E} = {EB4DE910-A291-4FE2-BE6B-DC2A996B0838}
+		{F3B0489E-8876-4E07-BF62-588F7172FA62} = {EB4DE910-A291-4FE2-BE6B-DC2A996B0838}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D158BD54-9F5C-420B-A118-9802D1B09BDB}
+	EndGlobalSection
+EndGlobal
