@@ -1,23 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageVersion>1.0.0-alpha-01</PackageVersion>
+    <LangVersion>latestmajor</LangVersion>
+    <RepositoryUrl>https://github.com/cnurse/FamilyTreeProject.Data.EntityFramework</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Resources\CommonErrors.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>CommonErrors.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="Resources\CommonErrors.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>CommonErrors.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="FamilyTreeProject.Core" Version="1.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="FamilyTreeProject.Common" Version="1.1.0-alpha-01" />
+    <PackageReference Include="FamilyTreeProject.Core" Version="1.1.0-alpha-1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Naif.Core" Version="3.3.3-alpha-01" />
   </ItemGroup>
 </Project>

@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30105.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeProject.Data.EntityFramework", "src\FamilyTreeProject.Data.EntityFramework\FamilyTreeProject.Data.EntityFramework.csproj", "{85868522-FF0F-42B1-857C-8371ACB51715}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EB4DE910-A291-4FE2-BE6B-DC2A996B0838}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeProject.Data.EntityFramework.Tests", "tests\FamilyTreeProject.Data.EntityFramework.Tests\FamilyTreeProject.Data.EntityFramework.Tests.csproj", "{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeProject.Data.EntityFramework.Integration.Tests", "tests\FamilyTreeProject.Data.EntityFramework.Integration.Tests\FamilyTreeProject.Data.EntityFramework.Integration.Tests.csproj", "{F3B0489E-8876-4E07-BF62-588F7172FA62}"
@@ -17,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		azure-pipelines.yaml = azure-pipelines.yaml
 		LICENSE = LICENSE
 		README.md = README.md
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 	EndProjectSection
 EndProject
 Global
@@ -42,8 +41,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9B3F3E7F-36BF-4E7A-AE8C-0731876B1E0E} = {EB4DE910-A291-4FE2-BE6B-DC2A996B0838}
-		{F3B0489E-8876-4E07-BF62-588F7172FA62} = {EB4DE910-A291-4FE2-BE6B-DC2A996B0838}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D158BD54-9F5C-420B-A118-9802D1B09BDB}

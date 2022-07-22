@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using FamilyTreeProject.Core.Collections;
-using FamilyTreeProject.Core.Contracts;
-using FamilyTreeProject.Core.Data;
+using FamilyTreeProject.Common.Data;
 using Microsoft.EntityFrameworkCore;
+using Naif.Core.Collections;
+using Naif.Core.Contracts;
+
 // ReSharper disable ArrangeAccessorOwnerBody
 
 namespace FamilyTreeProject.Data.EntityFramework

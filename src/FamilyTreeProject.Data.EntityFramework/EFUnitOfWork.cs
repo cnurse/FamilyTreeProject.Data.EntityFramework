@@ -1,7 +1,7 @@
-﻿using FamilyTreeProject.Core.Common;
-using FamilyTreeProject.Core.Contracts;
-using FamilyTreeProject.Core.Data;
+﻿using FamilyTreeProject.Common.Data;
+using FamilyTreeProject.Core.Common;
 using Microsoft.EntityFrameworkCore;
+using Naif.Core.Contracts;
 
 namespace FamilyTreeProject.Data.EntityFramework
 {
@@ -38,7 +38,7 @@ namespace FamilyTreeProject.Data.EntityFramework
             _db.SaveChanges();
         }
 
-        public IRepository<T> GetRepository<T>() where T : Entity
+        public IRepository<T> GetRepository<T>() where T : class
         {
             return new EFRepository<T>(_db);
         }
