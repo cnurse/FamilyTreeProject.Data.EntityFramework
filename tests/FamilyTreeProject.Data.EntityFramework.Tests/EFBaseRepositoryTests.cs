@@ -1,5 +1,5 @@
 ﻿using System;
-using FamilyTreeProject.Core.Common;
+using FamilyTreeProject.Common.Models;
 using FamilyTreeProject.Data.EntityFramework.Tests.Common;
 using Microsoft.EntityFrameworkCore;
 using Moq;

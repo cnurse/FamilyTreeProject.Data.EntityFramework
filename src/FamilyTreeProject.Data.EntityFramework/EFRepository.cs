@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using FamilyTreeProject.Common.Data;
+using FamilyTreeProject.Common.Models;
 using Microsoft.EntityFrameworkCore;
 using Naif.Core.Collections;
 using Naif.Core.Contracts;
@@ -10,7 +11,7 @@ using Naif.Core.Contracts;
 
 namespace FamilyTreeProject.Data.EntityFramework
 {
-    public class EFRepository<T> : IRepository<T> where T : class
+    public class EFRepository<T> : IRepository<T> where T : Entity
     {
         private readonly FamilyTreeContext _db;
 

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 using FamilyTreeProject.Common.Data;
-using FamilyTreeProject.Core;
+using FamilyTreeProject.Common.Models;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 

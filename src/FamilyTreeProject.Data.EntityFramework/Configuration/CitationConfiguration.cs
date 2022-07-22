@@ -1,4 +1,4 @@
-﻿using FamilyTreeProject.Core;
+﻿using FamilyTreeProject.Common.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
