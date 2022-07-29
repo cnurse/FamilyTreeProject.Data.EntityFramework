@@ -16,6 +16,7 @@ namespace FamilyTreeProject.Data.EntityFramework.Configuration
             builder.Property(s => s.Title);
             builder.Property(s => s.Author);
             builder.Property(s => s.Publisher);
+            builder.Property(s => s.UniqueId);
 
             builder.Ignore(s => s.EntityType);
             builder.Ignore(s => s.Multimedia);

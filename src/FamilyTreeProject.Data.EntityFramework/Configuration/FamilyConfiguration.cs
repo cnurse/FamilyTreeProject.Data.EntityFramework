@@ -14,6 +14,7 @@ namespace FamilyTreeProject.Data.EntityFramework.Configuration
             builder.Property(fam => fam.TreeId);
             builder.Property(fam => fam.HusbandId);
             builder.Property(fam => fam.WifeId);
+            builder.Property(fam => fam.UniqueId);
 
             builder.Ignore(fam => fam.EntityType);
             builder.Ignore(fam => fam.Children);

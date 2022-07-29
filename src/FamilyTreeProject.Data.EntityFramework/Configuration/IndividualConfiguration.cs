@@ -17,6 +17,7 @@ namespace FamilyTreeProject.Data.EntityFramework.Configuration
             builder.Property(ind => ind.Sex);
             builder.Property(ind => ind.FatherId);
             builder.Property(ind => ind.MotherId);
+            builder.Property(ind => ind.UniqueId);
 
             builder.Ignore(ind => ind.EntityType);
 

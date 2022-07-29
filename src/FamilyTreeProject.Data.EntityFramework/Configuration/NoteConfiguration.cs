@@ -15,8 +15,8 @@ namespace FamilyTreeProject.Data.EntityFramework.Configuration
             builder.Property(n => n.OwnerId);
             builder.Property(n => n.OwnerType);
             builder.Property(n => n.Text);
+            builder.Property(n => n.UniqueId);
 
-            builder.Ignore(n => n.UniqueId);
             builder.Ignore(n => n.EntityType);
             builder.Ignore(n => n.Multimedia);
             builder.Ignore(n => n.Notes);

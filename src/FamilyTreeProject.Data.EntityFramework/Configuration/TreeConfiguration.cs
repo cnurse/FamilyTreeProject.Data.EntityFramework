@@ -16,11 +16,11 @@ namespace FamilyTreeProject.Data.EntityFramework.Configuration
             builder.Property(t => t.OwnerId);
             builder.Property(t => t.Title);
             builder.Property(t => t.UniqueId);
+            builder.Property(t => t.HomeIndividualId);
+            builder.Property(t => t.ImageId);
+            builder.Property(t => t.LastViewedIndividualId);
 
             builder.Ignore(t => t.EntityType);
-            builder.Ignore(t => t.HomeIndividualId);
-            builder.Ignore(t => t.ImageId);
-            builder.Ignore(t => t.LastViewedIndividualId);
             builder.Ignore(t => t.Multimedia);
             builder.Ignore(t => t.Notes);
         }
