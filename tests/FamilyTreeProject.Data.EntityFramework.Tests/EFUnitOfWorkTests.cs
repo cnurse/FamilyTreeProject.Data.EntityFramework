@@ -25,7 +25,7 @@ namespace FamilyTreeProject.Data.EntityFramework.Tests
             Assert.Throws<ArgumentNullException>(() => new EFUnitOfWork(database));
         }
 
-        [Test]
+        /*[Test]
         public void Constructor_Overload_Throws_On_Null_Options()
         {
             //Arrange
@@ -36,7 +36,7 @@ namespace FamilyTreeProject.Data.EntityFramework.Tests
             //Assert
             // ReSharper disable once ExpressionIsAlwaysNull
             Assert.Throws<ArgumentNullException>(() => new EFUnitOfWork(options));
-        }
+        }*/
 
         [Test]
         public void Commit_Calls_SaveChanges()

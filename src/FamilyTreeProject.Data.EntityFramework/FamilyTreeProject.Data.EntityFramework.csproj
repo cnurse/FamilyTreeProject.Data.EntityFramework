@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <PackageVersion>1.0.0-alpha-04</PackageVersion>
+    <PackageVersion>1.0.0-alpha-05</PackageVersion>
     <LangVersion>latestmajor</LangVersion>
     <RepositoryUrl>https://github.com/cnurse/FamilyTreeProject.Data.EntityFramework</RepositoryUrl>
   </PropertyGroup>

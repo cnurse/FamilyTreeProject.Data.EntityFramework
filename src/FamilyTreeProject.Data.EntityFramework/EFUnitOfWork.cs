@@ -1,6 +1,5 @@
 ﻿using FamilyTreeProject.Common.Data;
 using FamilyTreeProject.Common.Models;
-using Microsoft.EntityFrameworkCore;
 using Naif.Core.Contracts;
 
 namespace FamilyTreeProject.Data.EntityFramework
@@ -9,22 +8,16 @@ namespace FamilyTreeProject.Data.EntityFramework
     {
         private FamilyTreeContext _db;
 
-        public EFUnitOfWork(DbContextOptions<FamilyTreeContext> options)
+        /*public EFUnitOfWork(DbContextOptions<FamilyTreeContext> options)
         {
             Requires.NotNull(options);
 
             Initialize(new FamilyTreeContext(options));
-        }
+        }*/
 
         public EFUnitOfWork(FamilyTreeContext db)
         {
             Requires.NotNull(db);
-
-            Initialize(db);
-        }
-
-        private void Initialize(FamilyTreeContext db)
-        {
             _db = db;
         }
 
