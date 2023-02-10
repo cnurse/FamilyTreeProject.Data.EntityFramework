@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <PackageVersion>1.0.0-alpha-05</PackageVersion>
+    <PackageVersion>1.0.0-alpha-06</PackageVersion>
     <LangVersion>latestmajor</LangVersion>
     <RepositoryUrl>https://github.com/cnurse/FamilyTreeProject.Data.EntityFramework</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FamilyTreeProject.Common" Version="1.1.0-alpha-02" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
-    <PackageReference Include="Naif.Core" Version="3.3.3-alpha-01" />
+    <PackageReference Include="FamilyTreeProject.Common" Version="1.1.0-alpha-04" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+    <PackageReference Include="Naif.Core" Version="3.3.3-alpha-04" />
   </ItemGroup>
 </Project>
